@@ -1,3 +1,5 @@
+# Thirdweb [June 2023 ERC-4337 Tutorial](https://www.youtube.com/watch?v=-RNQ5GoghGY)
+
 ## Setup
 
 1. Create a **Simple Wallet** on Third Web's Dashboard
@@ -10,7 +12,9 @@
 
    - Copy the **Client ID**
 
-4.
+4. Install **Chakra**
+   - run `npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion`
+   -
 
 ## Getting Started
 
