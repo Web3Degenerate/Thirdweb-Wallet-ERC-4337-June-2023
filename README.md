@@ -1,3 +1,17 @@
+## Setup
+
+1. Create a **Simple Wallet** on Third Web's Dashboard
+
+   - Set up at [Contract Type Page](https://thirdweb.com/thirdweb.eth/AccountFactory)
+
+2. AccountFactory Contract **0x9c21fA7FdDcB4734c1a44B062D743FF0f98bCF48**
+
+3. Set up API Key in `Settings Tab`
+
+   - Copy the **Client ID**
+
+4.
+
 ## Getting Started
 
 Create a project using this example:
@@ -34,7 +48,3 @@ To learn more about thirdweb and Next.js, take a look at the following resources
 - [Templates](https://thirdweb.com/templates)
 
 You can check out [the thirdweb GitHub organization](https://github.com/thirdweb-dev) - your feedback and contributions are welcome!
-
-## Join our Discord!
-
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
