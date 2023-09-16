@@ -1,9 +1,9 @@
 import type { AppProps } from "next/app";
-import { ThirdwebProvider, smartWallet, metamaskWallet, localWallet } from "@thirdweb-dev/react";
+import { ThirdwebProvider, smartWallet, metamaskWallet, localWallet, paperWallet } from "@thirdweb-dev/react";
 // import "../styles/globals.css";
 import { ChakraProvider } from "@chakra-ui/react";
 import { API_KEY, FACTORY_ADDRESS } from "../constant/addresses";
-
+import Navbar from '../components/Navbar'
 
 // This is the chain your dApp will work on.
 // Change this to the chain your app is built for.
@@ -27,11 +27,13 @@ function MyApp({ Component, pageProps }: AppProps) {
             personalWallets:[
                 metamaskWallet(),
                 localWallet()
+                // paperWallet()
             ]
           })
         ]}
       >
         <ChakraProvider>
+            <Navbar />
             <Component {...pageProps} />
         </ChakraProvider>
 
